@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <nav>
+        <span>Home</span>
+        <span>My Projects</span>
+        <span>Contact Me</span>
+
+    </nav>
+    <main>
+        <div>
+            <a href="#"><img class="dp"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQADjfoADAlJPrsl_hiiOMeE-FBor-i6hEAVg&s"
+                    alt="Here is Image"></a>
+        </div>
+        <div>
+            <h1 class="Heading">Renet Mammen Reji</h1>
+        </div>
+        <div class="section">
+            <h3> About Me </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea nostrum repellendus quisquam nobis inventore
+                fuga ut facilis minima fugit placeat voluptates ipsa rem, neque molestias iusto rerum, maxime, eos
+                laboriosam.</p>
+        </div>
+        <div>
+            <input type="email" id="mail" placeholder="Enter Your Email">
+            <button onclick="email()" class="btn">Click To Connect</button>
+        </div>
+        <div class="images">
+            <div>
+                <p>This is a Scenary</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdRujWK-EES8g52M7CIgQsyFmrZt1LlFmqVQ&s" alt="">
+            </div>
+            <div>
+             <p>This is a Scenary</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdRujWK-EES8g52M7CIgQsyFmrZt1LlFmqVQ&s" alt="">   
+            </div>
+            <div>
+                <p>This is Scenary</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdRujWK-EES8g52M7CIgQsyFmrZt1LlFmqVQ&s" alt="">
+            </div>
+            <div>
+                <p>This is Scenary</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdRujWK-EES8g52M7CIgQsyFmrZt1LlFmqVQ&s" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://wa.me/+916282727252.com"><img
+                src="data:image/png;base64,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"
+                alt="Here is an Image"></a>
+        <a href="https://www.instagram.com/renet_reji?!gsh=YjltY3IyNGRrb2Ji"><img
+                src="https://static.vecteezy.com/system/resources/previews/014/414/683/non_2x/instagram-black-logo-on-transparent-background-free-vector.jpg"
+                alt="Image"></a>
+        <a href="https://www.facebook.com/profile.php?id=100092454575887"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs2lQcKVmtjdmJvgzX57_cOc840IYZlDFhiQ&s"
+                alt="Image"></a>
+        <a href="https://www.linkedin.com/in/renet-reji-4317a3290"><img src="https://t4.ftcdn.net/jpg/05/46/78/23/360_F_546782398_26V3pL84dJYL7ovgIIIjcDJ7IhPUDxSA.jpg"
+                alt="Image"></a>
+</body>
+
+</html>
